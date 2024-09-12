@@ -1,0 +1,30 @@
+# This is how we create a comment
+# Key-Value pair in lowercase is best practice
+
+my-course: "MLOps Bootcamps"
+version: 1.0
+price: 2.99
+is_public: true
+release_date: "year-month-day"
+pre_enroll: null
+category:
+  - Item 1
+  - Item 2
+  - Item 3
+
+course_dev: ["Luis", "Ruiz", "Etc"]
+dev_details:
+  - name: "Luis"
+    email: "luis@example.com"
+    role: "author"
+  - name: "Luis"
+    email: "luis@example.com"
+    role: "author"
+  
+  - {name: "first name", email: "email@example.com"}
+
+short_desc: > 
+  This is for a course
+
+detail_desc: |
+Using the bar line will retain the the multiline symbol
